@@ -4,8 +4,11 @@ The purpose of this project was to assist Steve, who was assisting his parents, 
 ### Results
 This project produced a new sheet in the workbook for rendering stock analysis for 2017 and 2018.  When the code is run, it generates a table of twelve stocks and their performance over 2017 or 2018—whichever Steve wants to see thanks to a dialogue box that lets him type in the year.  The results include the stock’s ticker symbol in column A, the total daily volume in column B and the rate of return in column C.
 Running the script had to be quick for Steve, and it was after the original code was refactored.  Attached are the run times after the original code was refactored:
+
 ![VBA 2017 Screenshot](https://github.com/Sbhanger75/stock-analysis/blob/main/VBA_Challenge_2017.png)
+
 ![VBA 2018 Screenshot](https://github.com/Sbhanger75/stock-analysis/blob/main/VBA_Challenge_2018.png)
+
 Here is the refactored code:
 Sub AllStocksAnalysisRefactored()
     Dim startTime As Single
